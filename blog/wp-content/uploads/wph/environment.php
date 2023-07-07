@@ -1,0 +1,2 @@
+<?php if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
+$environment_variable = '{"theme":{"folder_name":"twentytwenty","mapped_name":"soum"},"allowed_paths":["\/home\/ASe5t678s3\/web\/soum.co.in\/public_html\/blog\/wp-content\/themes"],"cache_path":"\/home\/ASe5t678s3\/web\/soum.co.in\/public_html\/blog\/wp-content\/cache\/wph\/","wordpress_directory":"","site_relative_path":"\/blog\/"}'; ?>

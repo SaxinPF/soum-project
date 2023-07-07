@@ -1,0 +1,1 @@
+<?phpinclude('config.php');$code=$_REQUEST['pid'];$qty=$_REQUEST['qty'];foreach($code as $a => $b){	if ($qty[$a]!="")	{	$_SESSION['id']=$_SESSION['id']+1;	 $pid=$code[$a];	 $qty1=$qty[$a];	 $price=$prod_price[$a];		$_SESSION['cart'][$pid]=$qty1;	}}?><script>	window.location.href="view_cart.php";</script>

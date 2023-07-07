@@ -1,0 +1,381 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{padding:0;margin:0;font-family:'Roboto',sans-serif;}
+ul{list-style:none}
+a{text-decoration:none;outline:none}
+body a:hover,body a:focus{color:initial;text-decoration:none}
+a:focus{outline:none;text-decoration:none}
+textarea:focus{outline:none}
+select:focus{outline:none;}
+input{outline:none!important}
+button,button:focus{outline:none}
+a img{border:none}
+img{border:0}
+p{padding:0;margin:0}
+h1,h2,h3,h4,ul,p{padding:0;margin:0}
+textarea{resize:none}
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder{color:#fff}
+input:-moz-placeholder,textarea:-moz-placeholder{color:#fff}
+input:-webkit-autofill{border:1px solid #e4e4e5;-webkit-text-fill-color:rgba(49,50,51,1);-webkit-box-shadow:0 0 0px 1000px #f5f5f6 inset;transition:background-color 5000s ease-in-out 0s;}
+input:-internal-autofill-selected{background-color:#fff!important;-webkit-box-shadow:0 0 0px 1000px #fff inset;}
+input:-webkit-autofill:hover,input:-webkit-autofill:focus{border:1px solid #e4e4e5;-webkit-text-fill-color:rgba(49,50,51,1);-webkit-box-shadow:0 0 0px 1000px #f5f5f6 inset;transition:background-color 5000s ease-in-out 0s;}
+input::-moz-placeholder{opacity:1;outline:none}
+textarea::-moz-placeholder{opacity:1;outline:none}
+.clr{clear:both;height:0}
+ul{padding:0;list-style:none}
+a{text-decoration:none;-moz-transition:all .2s;-webkit-transition:all .2s;transition:all .2s}
+a:hover{text-decoration:none;-moz-transition:all .2s;-webkit-transition:all .2s;transition:all .2s}
+header{background:#fff;padding:12px 0;}
+.navbar-expand-lg .navbar-nav .dropdown-menu{border:none;box-shadow:0 0 25px 0 rgba(0,0,0,0.2);padding:0;}
+.navbar-light .navbar-nav .nav-link{color:#1A1A1A;font-size:16px;font-family:Roboto;font-style:normal;font-weight:500;line-height:19.5px;text-transform:uppercase;}
+.navsec nav.navbar.navbar-expand-lg.navbar-light.bg-light{padding:0;background:#fff!important;}
+.navbar-light .navbar-nav .nav-item{margin-right:20px;}
+.navbar-light .navbar-nav .nav-item:last-child{margin:0;}
+.dropdown-item:focus,.dropdown-item:hover{color:#fff;background-color:#26356e;}
+.dropdown-item{color:#1A1A1A;font-size:13px;font-family:Roboto;font-style:normal;font-weight:500;line-height:19.5px;text-transform:uppercase;}
+.whbtn{display:inline-block;vertical-align:middle;padding:10px 20px;border-radius:6px;border:1px solid #26356E;color:#26356E;font-size:16px;font-family:Roboto;font-style:normal;font-weight:500;line-height:19.5px;text-transform:uppercase;}
+.whbtn:hover,.whbtn:focus{background:#26356E;color:#fff;}
+.bluebtn{border-radius:7px;background:#26356E;display:inline-block;vertical-align:middle;padding:11px 20px;color:#FFF;font-size:16px;font-family:Roboto;font-style:normal;font-weight:500;line-height:19.5px;text-transform:uppercase;}
+.bluebtn:hover,.bluebtn:focus{background:#364788;color:#fff;}
+.headbtns .whbtn{margin:0 10px 0 0;}
+.sliderSec{background:url(../new_img/sliderbg.webp?fdsfdsf)0 0 no-repeat;background-size:cover;}
+.sliderSec .container{display:flex;align-items:flex-start;align-content:flex-start;justify-content:space-between;padding:60px 0 0;}
+.slidercnt{max-width:750px;padding-top:30px;}
+.slidercnt h2{color:#FFF;font-size:18px;font-family:Roboto;font-style:normal;font-weight:700;line-height:19.5px;text-transform:uppercase;margin:0 0 10px;}
+.slidercnt h3{color:#FFF;font-size:55px;font-family:Roboto;font-style:normal;font-weight:500;line-height:110%;margin:0 0 10px;}
+.slidercnt p{color:#FFF;font-size:18px;font-family:Roboto;font-style:normal;font-weight:400;line-height:150%;}
+.carousel-indicators{margin:auto;}
+.expbtn{margin:20px 0 0;}
+.whbgbtn{border-radius:9px;background:#FFF;display:inline-block;padding:13px 22px;color:#26356E;font-size:16px;font-family:Roboto;font-style:normal;font-weight:500;line-height:19.5px;text-transform:uppercase;}
+.whbgbtn:hover,.whbgbtn:focus{background:#000;color:#fff;}
+.explatestphone{padding:70px 0;}
+.blackheading{color:#262626;font-size:34px;font-family:Roboto;font-style:normal;font-weight:800;line-height:normal;margin:0 0 20px;}
+.btnsviewmore{display:flex;align-items:center;align-content:center;justify-content:space-between;margin:0 0 30px;}
+.btnleft .bluebtn{margin-right:10px;color:#FFF;font-size:15px;font-family:Roboto;font-style:italic;font-weight:600;line-height:normal;text-transform:uppercase;}
+.btnleft .whbtn{color:#26356E;font-size:15px;font-family:Roboto;font-style:italic;font-weight:600;line-height:normal;text-transform:uppercase;}
+.btnleft .whbtn:hover,.btnleft .whbtn:focus{background:#26356E;color:#fff;}
+.viewmore{color:#26356E;font-size:16px;font-family:Roboto;font-style:normal;font-weight:600;line-height:19.5px;text-decoration-line:underline;text-transform:uppercase;}
+.latestphones{display:flex;align-items:flex-start;align-content:flex-start;margin:0 -1%;}
+.latestphones li{display:inline-flex;width:23%;border-radius:8px;background:#FFF;box-shadow:0px 0px 24px 3px rgba(0,0,0,0.10);flex-wrap:wrap;padding:8px 8px 14px 8px;margin:0 1% 20px;transition:all ease .3s;}
+.latestphones li h2{color:#262626;text-align:center;leading-trim:both;text-edge:cap;font-size:19px;font-family:Roboto;font-style:normal;font-weight:600;line-height:normal;text-transform:uppercase;width:100%;text-align:center;margin:15px 0 5px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;}
+.latestphones li:hover{box-shadow:0 0 54px 0px rgba(0,0,0,0.2);transition:all ease .3s;}
+.latestphoneimg a{display:block;height:211px;position:relative;overflow:hidden;}
+.latestphoneimg a:hover img{transform:scale(1.1);transition:all ease 0.3s;}
+.latestphoneimg a img{transition:all ease .3s;}
+.rankes{width:100%;text-align:center;margin:0 0 5px;}
+.rankes a{display:inline-block;vertical-align:middle;margin:0 5px 0 0;}
+.rankes a:last-child{margin:0;}
+.latestphones li h3{color:#26356E;leading-trim:both;text-edge:cap;font-size:24px;font-family:Roboto;font-style:normal;font-weight:800;line-height:normal;text-transform:capitalize;text-align:center;width:100%;margin:4px 0 23px;}
+.interested{width:100%;text-align:center;}
+.interestedbtn{display:inline-block;vertical-align:middle;padding:9px 17px;border-radius:7px;border:1px solid #26356E;color:#26356E;font-size:15px;font-family:Roboto;font-style:normal;font-weight:500;line-height:19.5px;text-transform:uppercase;}
+.interestedbtn:hover,.interestedbtn:focus{background:#26356E;color:#fff;}
+.interestlink{display:inline-block;vertical-align:middle;margin:0 0 0 1px;padding:9px 15px;border-radius:7px;border:1px solid #26356E;color:#26356E;font-size:15px;font-family:Roboto;font-style:normal;font-weight:500;line-height:19.5px;text-transform:uppercase;}
+.latestphoneimg{width:100%;height:240px;border-radius:7px;background:#f9f9f9;display:flex;align-items:center;align-content:center;justify-content:center;}
+.hotedeals{display:flex;align-items:flex-start;align-content:flex-start;margin:0 -1%;}
+.hotedeals li{width:32%;margin:0 1% 30px;border-radius:10px;background:linear-gradient(137deg,#EEE 0%,#CFCFCF 100%);padding:20px 20px 0;position:relative;overflow:hidden;}
+.hotedeals li:hover .dealimg img{transform:scale(1.1);transition:all ease .3s;}
+.dealimg img{transition:all ease .3s;}
+.hotedeals li h2{color:#262626;text-align:center;leading-trim:both;text-edge:cap;font-size:19px;font-family:Roboto;font-style:normal;font-weight:600;line-height:normal;text-transform:uppercase;text-align:left;margin:0 0 5px;}
+.hotedeals li h3{color:#26356E;leading-trim:both;text-edge:cap;font-size:24px;font-family:Roboto;font-style:normal;font-weight:800;line-height:normal;text-transform:capitalize;margin:0 0 30px;}
+.dealdetail p{color:#595959;text-align:center;leading-trim:both;text-edge:cap;font-size:13px;font-family:Roboto;font-style:normal;font-weight:500;line-height:normal;text-transform:uppercase;text-align:left;margin:0 0 15px;}
+.dealdetail p strong{color:#262626;text-align:center;leading-trim:both;text-edge:cap;font-size:18px;font-family:Roboto;font-style:normal;font-weight:500;line-height:normal;text-transform:uppercase;display:block;width:100%;text-align:left;}
+.dealdetail{margin:0 0 20px;max-width:137px;}
+.interestbtn{display:inline-flex;padding:9px 17px;justify-content:center;align-items:center;border-radius:7px;border:1px solid #26356E;color:#26356E;font-size:15px;font-family:Roboto;font-style:normal;font-weight:500;line-height:19.5px;text-transform:uppercase;margin-top:15px;}
+.interestbtn:hover,.interestbtn:focus{background:#26356E;color:#fff;}
+.dealimg{position:absolute;right:20px;bottom:0;}
+.buylatestbox{display:flex;align-items:flex-start;align-content:flex-start;}
+.buylatestSec{padding:40px 0;}
+.buyphone{position:relative;width:60%;height:590px;padding:50px 50px 0 50px;border-radius:10px;background:linear-gradient(136deg,#152A3B 0%,#485A69 100%);margin:0 1% 0 0;overflow:hidden;}
+.buyphone:hover .buyphoneimg img{transform:scale(1.1);transition:all ease .3s;}
+.buyphoneimg img{transition:all ease .3s;}
+.usesRepairphones{width:40%;padding:0 0 0 10px;}
+.buyphone h2{color:#FFF;font-size:34px;font-family:Roboto;font-style:normal;font-weight:800;line-height:normal;text-transform:capitalize;margin:0 0 10px;}
+.buyphone p{color:#FFF;font-size:16px;font-family:Roboto;font-style:normal;font-weight:400;line-height:150%;margin:0 0 20px;}
+.buyphoneimg{position:absolute;right:30px;bottom:0;max-width:430px;}
+.usedphone{border-radius:10px;background:var(--1,linear-gradient(133deg,#1383D5 0%,#4BB7F7 100%));padding:25px 15px 15px 25px;width:100%;height:287px;}
+.usedphone p{padding-right:170px;}
+.usedphone .buyphoneimg{right:0;max-width:160px;}
+.mobilerepair{margin:15px 0 0;width:100%;height:288px;border-radius:10px;background:linear-gradient(135deg,#F0B33E 0%,#E1C533 100%);padding:25px 15px 15px 25px;}
+.mobilerepair h2{color:#141414;}
+.mobilerepair p{color:#1C1C1C;padding-right:150px;}
+.mobilerepair .buyphoneimg{right:15px;}
+.expcategories{display:flex;align-items:flex-start;align-content:flex-start;margin:0 -1%;}
+.expcate{width:33%;margin:0 1% 20px;position:relative;overflow:hidden;}
+.expcategorytitle{position:absolute;left:0;bottom:0px;padding:0 0 10px 10px;color:#FFF;font-size:20px;font-family:Roboto;font-style:normal;font-weight:600;line-height:normal;text-transform:capitalize;z-index:1;}
+.expcategorytitle:before{content:'';width:380px;height:207px;transform:rotate(23.439deg);flex-shrink:0;border-radius:5px;background:#26356E;position:absolute;left:-60px;bottom:-170px;z-index:-1;}
+.expcate a{display:block;overflow:hidden;}
+.expcate a:hover img{transform:scale(1.1);transition:all ease .3s;}
+.expcate a img{transition:all ease .3s;}
+.readstory{padding:70px 0;}
+
+/*.readstory ul{display:flex;align-items:flex-start;align-content:flex-start;margin:0 -1%;}*/
+.testimonial .slick-list{margin-left:-15px;margin-right:-15px;}
+.testimonial .slick-slide{padding:0 15px;}
+.testimonial .slick-slide > div{display:inline-block;border-radius:5px;border:1px solid #e9e9e9;background:#FFF;padding:21px;}
+.storyauthhead{display:flex;align-items:center;align-content:center;justify-content:space-between;}
+.authdetail{display:flex;align-items:center;align-content:center;}
+.authname{padding:0 0 0 10px;}
+.authname h3{color:#1A1A1A;font-size:17px;font-family:Roboto;font-style:normal;font-weight:600;line-height:normal;text-transform:capitalize;}
+.authname h4{color:#666;font-size:14px;font-family:Roboto;font-style:normal;font-weight:500;line-height:normal;text-transform:lowercase;}
+.authstar{margin:20px 0 20px;}
+.authstar a{display:inline-block;vertical-align:middle;margin:0 3px 0 0;}
+.authreview p{color:#4D4D4D;font-size:16px;font-family:Roboto;font-style:normal;font-weight:500;line-height:150%;}
+.authreview p{max-height:86px;overflow-x:auto;}
+.authreview p{scrollbar-color:#2abb9b #e0e0e0;scrollbar-width:thin;}
+.authreview p::-webkit-scrollbar{width:4px;}
+.authreview p::-webkit-scrollbar-track{background:#D9D9D9;border-radius:20px;-webkit-border-radius:20px;}
+.authreview p::-webkit-scrollbar-thumb{background:#5F5F5F;border-radius:20px;-webkit-border-radius:20px;}
+.featurebrands ul{display:flex;align-items:flex-start;align-content:flex-start;flex-wrap:wrap;justify-content:center;}
+.featurebrands ul li{display:inline-flex;width:20%;border:1px solid #E6E6E6;height:170px;align-items:center;align-content:center;justify-content:center;margin:0 0 -1px -1px;padding:6px 10px;transition:all ease .3s;}
+.featurebrands ul li:hover,.featurebrands ul li:focus{background:#f6f6f6;transition:all ease .3s;}
+.featurebrands{padding:0 0 60px;}
+.lookingbox{background:#000;display:flex;align-items:flex-end;align-content:flex-end;border-radius:8px;padding:0 40px 0 60px;position:relative;width:100%;justify-content:space-between;height:372px;}
+.lookingbr h2{color:#FFF;font-size:38px;font-family:Roboto;font-style:normal;font-weight:700;line-height:normal;margin:0 0 10px;}
+.lookingbr p{color:#FFF;font-size:18px;font-family:Roboto;font-style:normal;font-weight:400;line-height:150%;margin:0 0 20px;}
+.lookingbr .whbgbtn:hover,.lookingbr .whbgbtn:focus{background:#26356e;color:#fff;}
+.lookingbr{max-width:60%;padding:0 70px 70px 0;}
+.lookingbrandimgs{width:30%;}
+.brandimg{text-align:center;}
+.brandimg:first-child{margin:0 0 40px;}
+footer{background:#070A14;margin:70px 0 0;padding:70px 0 0;}
+.footcnt h2{color:#FFF;text-align:center;leading-trim:both;text-edge:cap;font-size:18px;font-family:Roboto;font-style:normal;font-weight:500;line-height:normal;text-transform:uppercase;text-align:left;margin:0 0 20px;}
+.footaddres li{margin:0 0 10px;color:#A6A6A6;text-align:center;leading-trim:both;text-edge:cap;font-size:16px;font-family:Roboto;font-style:normal;font-weight:500;line-height:normal;text-align:left;line-height:24px;}
+.footaddres li img{display:inline-block;vertical-align:middle;}
+.footaddres li strong{display:inline-block;vertical-align:middle;font-weight:500;}
+.footaddres li strong a{color:#A6A6A6;}
+.quicklink h2{color:#FFF;text-align:center;leading-trim:both;text-edge:cap;font-size:18px;font-family:Roboto;font-style:normal;font-weight:500;line-height:normal;text-transform:uppercase;text-align:left;margin:0 0 20px;}
+.quicklink ul li{margin:0 0 2px;}
+.quicklink ul li a{color:#A6A6A6;leading-trim:both;text-edge:cap;font-size:16px;font-family:Roboto;font-style:normal;font-weight:500;line-height:23px;}
+.quicklink ul li a:hover,.quicklink ul li a:focus{color:#fff;text-decoration:underline;}
+.footaddres li:last-child img{vertical-align:top;}
+.footlast{text-align:center;padding:20px 0;border-top:1px solid #2c2c2c;margin:50px 0 0;}
+.copyright{color:#a3a3a3;leading-trim:both;text-edge:cap;font-size:15px;font-family:'Roboto';font-style:normal;font-weight:400;line-height:24px;}
+#elevator_item{width:40px;height:50px;position:fixed;right:15px;bottom:10px;-webkit-transition:opacity .4s ease-in-out;-moz-transition:opacity .4s ease-in-out;-o-transition:opacity .4s ease-in-out;opacity:1;z-index:100020;display:none;}
+#elevator_item.off{opacity:0;visibility:hidden}
+#elevator{display:block;width:40px;height:40px;background:url(../img/icon_top.webp) center center no-repeat;background-size:15px;background-color:rgb(38 53 110);border-radius:2px;box-shadow:0 1px 3px rgba(0,0,0,.2);cursor:pointer;margin-bottom:10px;}
+#elevator:hover{background-color:rgba(0,0,0,.7)}
+
+/*Responsive*/
+@media (max-width:1399px){
+}
+@media (max-width:1199px){
+.navbar-light .navbar-nav .nav-item{margin-right:5px;}
+.navbar-light .navbar-nav .nav-link{font-size:14px;}
+.whbtn{padding:8px 15px;font-size:14px;}
+.bluebtn{padding:9px 15px;font-size:14px;}
+.slidercnt h3{font-size:34px;line-height:40px;}
+.slidercnt p{font-size:17px;line-height:22px;}
+.whbgbtn{padding:10px 13px;font-size:14px;border-radius:6px;}
+.blackheading{font-size:25px;}
+.viewmore{font-size:15px;}
+.latestphones li h2{font-size:15px;}
+.latestphones li h3{font-size:18px;}
+.interestedbtn{font-size:13px;}
+.hotedeals li h2{font-size:18px;}
+.hotedeals li h3{font-size:18px;}
+.dealdetail p{font-size:12px;}
+.dealdetail p strong{font-size:15px;}
+.interestbtn{padding:8px 12px;font-size:14px;}
+.dealimg{max-width:130px;}
+.buyphone h2{font-size:29px;}
+.expcategorytitle{font-size:16px;}
+.authreview p{font-size:14px;}
+.authname h3{font-size:15px;}
+.lookingbr h2{font-size:30px;}
+.lookingbr p{font-size:15px;}
+.lookingbox{height:300px;}
+.footcnt h2{font-size:15px;}
+.footaddres li{font-size:14px;}
+.quicklink ul li a{font-size:15px;}
+}
+@media (max-width:991px){
+.navbar-collapse{position:absolute;right:0px;top:58px;background:#fff;min-width:180px;box-shadow:0 0 5px 0 rgba(0,0,0,0.2);z-index:2;}
+.navbar-light .navbar-nav .nav-link{padding:5px 10px;font-size:13px;}
+.navbar-light .navbar-nav .nav-item{margin-right:0;border-bottom:1px solid #f2f2f2;}
+.navbar-light .navbar-nav .nav-item:last-child{border-bottom:none;}
+.dropdown-toggle::after{right:10px;position:absolute;top:15px;}
+.navbar-collapse ul.navbar-nav{margin:0!important;}
+.headbtns{padding-right:50px;}
+.navbar-light .navbar-toggler{position:absolute;right:0;background:#26356e;padding:0px 4px;}
+.navbar-light .navbar-toggler:hover,.navbar-light .navbar-toggler:focus{outline:none;box-shadow:none;}
+.navbar-light .navbar-toggler img{width:33px;}
+.bluebtn{padding:8px 15px;font-size:14px;border-radius:5px;}
+.whbtn{padding:7px 15px;font-size:14px;}
+.headbtns .whbtn{margin:0 4px 0 0;}
+.slidercnt h3{font-size:27px;line-height:33px;}
+.slidercnt h2{font-size:14px;}
+.slidercnt p{font-size:14px;line-height:22px;padding-right:40px;}
+.sliderSec .container img{max-width:260px;}
+.dealdetail p strong{font-size:12px;}
+.latestphones{flex-wrap:wrap;}
+
+/*.latestphones li{width:48%;}*/
+.hotedeals li{padding:10px 10px 0;border-radius:5px;}
+.hotedeals li h2{font-size:14px;}
+.hotedeals li h3{margin:0 0 10px;font-size:15px;}
+.dealimg{position:inherit;text-align:center;width:100%;margin:auto;max-width:110px;right:inherit;}
+.dealdetail{max-width:100%;text-align:left;}
+.dealdetail p{display:inline-block;vertical-align:top;padding-right:10px;}
+.dealimg img{max-height:100px;}
+.explatestphone{padding:30px 0;}
+.latestphoneimg{height:190px;}
+.latestphoneimg a{height:160px;}
+.latestphones li h3{font-size:15px;}
+.latestphones li h2{font-size:13px;}
+.interestedbtn{font-size:11px;padding:6px 10px;border-radius:5px;}
+.interestlink{padding:6px 11px;border-radius:5px;}
+.rankes a img{max-width:12px;}
+.buyphone{padding:20px 20px 0 20px;border-radius:5px;height:350px;}
+.buyphone h2{font-size:21px;}
+.buyphone p{font-size:13px;}
+.whbgbtn{padding:8px 10px;font-size:12px;border-radius:4px;}
+.buyphoneimg{max-width:220px;}
+.usedphone{height:167px;padding:10px;}
+.mobilerepair{height:167px;padding:10px;}
+.mobilerepair .buyphoneimg{max-width:90px;right:3px;}
+.mobilerepair p{padding-right:76px;margin:0 0 5px;font-size:12px;line-height:17px;}
+.mobilerepair h2{margin:0 0 0;font-size:18px;}
+.usedphone .buyphoneimg{max-width:80px;}
+.usedphone p{padding-right:60px;margin:0 0 4px;}
+.usedphone h2{margin:0 0 2px;font-size:18px;}
+.expcategorytitle{font-size:13px;}
+.expcategorytitle:before{width:280px;}
+.readstory{padding:30px 0;}
+.blackheading{font-size:22px;}
+.readstory ul li{padding:10px;}
+.testimonial .slick-list{margin-left:-5px;margin-right:-5px;}
+.testimonial .slick-slide{padding:0 5px;}
+.authname h3{font-size:12px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;max-width:83%;}
+.authreview p{font-size:12px;}
+.authstar a img{max-width:12px;}
+.authstar{margin:0 0 5px;}
+.authimg{width:26px;}
+.authname{max-width:120px;}
+.lookingbox{padding:10px 20px 0;height:260px;}
+.lookingbr h2{font-size:22px;margin:0 0 4px;}
+.lookingbr p{font-size:14px;line-height:20px;}
+.footaddres li strong{max-width:86%;}
+.footaddres li strong{max-width:86%;}
+footer{padding:30px 0 0;margin:30px 0 0;}
+.footcnt h2{margin:0 0 20px;font-size:14px;}
+.quicklink h2{margin:0 0 20px;font-size:14px;}
+.footaddres li{font-size:12px;line-height:16px;}
+.quicklink ul li a{font-size:12px;line-height:16px;}
+.quicklink ul li{line-height:15px;margin:0 0 3px;}
+.footlast{margin:15px 0 0;padding:10px 0;}
+.copyright{font-size:14px;}
+}
+@media (max-width:767px){
+.sliderSec .container{padding:50px 15px 0px;}
+.slidercnt{padding-top:0;}
+.slidercnt h3{font-size:16px;line-height:21px;}
+.slidercnt h3 br{display:none;}
+.slidercnt h2{font-size:13px;}
+.slidercnt p{font-size:12px;line-height:18px;}
+.sliderSec .container img{max-width:150px;}
+.testimonial .slick-slide > div{padding:10px;}
+.authgmail{width:20px;}
+.testimonial .slick-slide{padding:0 5px;}
+.testimonial .slick-list{margin-left:-5px;margin-right:-5px;}
+.expbtn{margin:8px 0 20px;}
+.blackheading{margin:0 0 10px;font-size:15px;}
+.btnleft .whbtn{font-size:14px;}
+.btnleft .bluebtn{font-size:14px;}
+.viewmore{font-size:13px;}
+.latestphones li{width:48%;}
+.hotedeals li{width:48%;margin-bottom:10px;}
+.hotedeals{flex-wrap:wrap;justify-content:center;}
+.buylatestSec{padding:20px 0;}
+.buyphone{padding:10px;}
+.buyphone{width:50%;}
+.dealimg{position:absolute;right:0;bottom:0;}
+.dealdetail{max-width:110px;}
+.dealdetail p{margin-bottom:4px;}
+.interestbtn{margin-top:2PX;}
+.usesRepairphones{width:50%;}
+.usedphone,.mobilerepair{width:100%;}
+.buyphoneimg{max-width:180px;}
+.expcategories{flex-wrap:wrap;justify-content:center;}
+.expcate{width:48%;}
+.featurebrands{padding:0 0 40px;}
+.featurebrands ul{justify-content:flex-start;}
+.featurebrands ul li{width:20%;height:120px;}
+.lookingbr{max-width:100%;padding:0 20px 30px 0;}
+.lookingbox{height:210px;}
+.lookingbr h2{font-size:19px;}
+.lookingbr p{font-size:12px;margin:0 0 10px;}
+.footaddres li img{max-width:13px;}
+.authdetail{flex-wrap:wrap;}
+.authimg img{max-width:30px;}
+.storyauthhead{align-items:flex-start;}
+.authname{width:100%;max-width:100%;padding:7px 0 0;}
+.copyright{font-size:12px;}
+}
+@media (max-width:575px){
+.navbar-light .navbar-toggler{top:5px;}
+.navbar-collapse{top:45px;}
+.headbtns{padding:0 48px 0 0;display:flex;justify-content:space-between;align-items:center;}
+.sliderSec .container{padding:20px 15px 0px;}
+.slidercnt{max-width:100%;}
+.sliderSec .container{flex-wrap:wrap;}
+.slidercnt p{padding:0;}
+.sliderSec .container img{margin:auto;}
+.sliderSec .container{padding-bottom:30px;}
+.slidercnt h2,.slidercnt h3,.slidercnt p,.expbtn{text-align:center;}
+.btnsviewmore{flex-wrap:wrap;}
+.btnleft{width:100%;margin:0 0 10px;}
+.latestphones li h3{font-size:12px;margin:0 0 4px;}
+.latestphones li h2{font-size:12px;margin:0 0 4px;}
+.latestphoneimg{height:auto;margin:0 0 10px;}
+.latestphoneimg a{height:auto;}
+.interestedbtn{display:inline-block;width:100%;max-width:110px;margin:0;}
+.latestphones{margin:0;}
+.latestphones li{width:48%;margin-bottom:5px;}
+.dealdetail p{margin:0 0 5px;}
+.interestbtn{padding:5px 9px;font-size:13px;}
+.buyphone{width:100%;margin:0 0 10px;}
+.buylatestbox{flex-wrap:wrap;}
+.usesRepairphones{width:100%;padding:0;}
+.readstory ul{flex-wrap:wrap;margin:0;}
+.readstory ul li{width:100%;margin:0 0 10px;}
+.lookingbr h2{font-size:17px;}
+.usedphone p{padding-right:90px;}
+.mobilerepair p{padding-right:90px;}
+footer{padding:15px 0 0;}
+.featurebrands ul{flex-wrap:wrap;}
+.featurebrands ul li{width:33%;}
+.lookingbox{flex-wrap:wrap;height:auto;padding:10px 12px 0;}
+.footcnt{border-bottom:1px solid #323232;padding:0 0 15px;margin:0 0 15px;}
+.footaddres li:last-child{margin:0;}
+.quicklink h2{margin:0 0 5px;font-size:13px;}
+.footcnt h2{margin:0px 0 5px;font-size:13px;}
+}
+@media (max-width:480px){
+.navbar-collapse{top:44px;}
+.logosm img{max-width:110px;}
+.navbar-light .navbar-toggler{top:0;padding:1px 4px;border-radius:2px;}
+.whbtn{padding:5px 10px;font-size:13px;border-radius:3px;}
+.bluebtn{font-size:13px;padding:6px 10px;border-radius:3px;}
+.navbar-light .navbar-toggler img{width:28px;}
+.headbtns{padding:0 42px 0 0;}
+.hotedeals{margin:0;}
+.hotedeals li{width:100%;margin:0 0 10px;}
+.interestedbtn{display:inline-block;width:100%;max-width:81px;margin:0;font-size:9px;padding:3px 4px;}
+.interestlink{padding:3px 11px;border-radius:3px;}
+.expcate{width:100%;margin:0 0 10px;}
+.expcategories{margin:0;}
+.expcate a img{width:100%;}
+.interestbtn{border-radius:4px;}
+.dealdetail{display:inline-flex;justify-content:space-between;align-items:flex-start;align-content:flex-end;max-width:190px;flex-wrap:wrap;}
+.dealimg{margin:0;display:inline-flex;align-items:flex-start;align-content:flex-start;position:absolute;right:0;bottom:0;}
+}
+@media (max-width:360px){
+.logosm img{max-width:100px;}
+.navbar-collapse{top:42px;}
+.headbtns .whbtn{margin:0 3px 0 0;}
+.whbtn{padding:4px 4px;}
+.bluebtn{padding:5px 7px;}
+.navbar-light .navbar-toggler img{width:26px;}
+.headbtns{padding:0 39px 0 0;}
+.dealdetail{max-width:160px;}
+}

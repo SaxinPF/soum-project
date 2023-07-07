@@ -1,0 +1,5 @@
+AuthName "Soum Auth Access" 
+AuthType Basic 
+AuthUserFile /home/soumftp/public_html/www/soumadmin/.htpasswd 
+AuthGroupFile /dev/null 
+require valid-user

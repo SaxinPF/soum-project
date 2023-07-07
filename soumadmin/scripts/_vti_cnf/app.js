@@ -1,0 +1,9 @@
+vti_encoding:SR|utf8-nl
+vti_timelastmodified:TR|29 May 2017 06:51:20 -0000
+vti_extenderversion:SR|12.0.0.0
+vti_backlinkinfo:VX|admin/report2.php admin/day_by_stock.php admin/report_olx_customers.php admin/customer_master_new.php admin/list_by_user.php admin/setting_service_master.php admin/subcrib_master.php admin/_subcat_master.php admin/customer_master.php admin/enquire_list.php admin/report_stock.php admin/report_stock2.php admin/cust_add.php admin/order_track.php admin/search.php admin/timeline.php admin/approv_dis.php admin/dashboard.php admin/feedback_list.php admin/offer_master.php admin/order.php admin/report_activity.php admin/stock_detail.php admin/dealer_master.php admin/order_details.php admin/utilities.php admin/repair_list.php admin/report_order_summary.php admin/banner-mgmt.php admin/change_status_master.php admin/chat.php admin/enquiry_master.php admin/form_elements.php admin/page1.php admin/report.php admin/tabs.php admin/subcat_master.php admin/enq_detail.php admin/greeting_master.php admin/new_save.php admin/offer-mgmt.php admin/order2.php admin/update_profile.php admin/user.php admin/banner_master.php admin/report_order_summary_dtl.php admin/feedback_master.php admin/invoice.php admin/report1.php admin/subsubcat_master.php admin/extra-dashboard.php admin/dashboard_sunil.php admin/feedback_detail.php admin/newsletter_master.php admin/_offer_master.php admin/financer_master.php admin/repair_center_master.php admin/report_services.php admin/customer_master_old_pawan.php admin/mail_greeting.php admin/phone_detail.php admin/repair_dtl.php admin/walking_user.php admin/cupon_master.php admin/dealer_master_new.php admin/phone_detail_sunil.php admin/track_order.php
+vti_author:SR|pawan-PC\\pawan
+vti_modifiedby:SR|pawan-PC\\pawan
+vti_timecreated:TR|29 May 2017 06:51:20 -0000
+vti_cacheddtm:TX|29 May 2017 06:51:20 -0000
+vti_filesize:IR|5772
